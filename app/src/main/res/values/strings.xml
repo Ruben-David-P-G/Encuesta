@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Poll Honda</string>
+    <string name="m_action_acerca">About</string>
+    <string name="m_action_confi">Configurations</string>
+    <string name="m_action_salir">Exit</string>
+    <string name="t_action_titulo_login">Login</string>
+    <string name="btn_login">Login</string>
+    <string name="input_use">User</string>
+    <string name="input_password">Password</string>
+    <string name="text_titulo_introducion">Your opinion matters to us</string>
+    <string name="text_subtitulo_introducion">Answer the following questions about the service received.</string>
+    <string name="btn_introducion">Start Survey</string>
+    <string name="encuesta_pregunta1">How do you consider the treatment received?</string>
+    <string name="encuesta_pregunta2">Would you recommend us with an acquaintance?</string>
+    <string name="encuesta_pregunta3">Do you want to add additional comments?</string>
+    <string name="encuesta_btn_enviar">Submit</string>
+    <string name="thanq1">Thank you!</string>
+    <string name="thanq2">We will take your opinion into account.</string>
+    <string name="btn_cerrar">Close</string>
+    <string name="about_titulo">About</string>
+    <string name="about_info1">Empresa: Honda Avante.</string>
+    <string name="about_info2">Desarrollador: Ruben David Parga Garcia.</string>
+    <string name="about_info3">Verción: 1.</string>
+    <string name="about_info4">Email: deyvis661@gmail.com.</string>
+    <string name="about_info5">Telefono: 3111213720.</string>
+</resources>

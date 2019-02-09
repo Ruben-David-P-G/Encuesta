@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="withText" android:id="@+id/opt_about" android:icon="@drawable/ic_action_about" android:title="@string/m_action_acerca"></item>
+    <item app:showAsAction="collapseActionView" android:id="@+id/opt_settings" android:icon="@drawable/ic_action_settings" android:title="@string/m_action_confi"></item>
+    <item app:showAsAction="ifRoom" android:icon="@drawable/ic_action_exit" android:id="@+id/opt_exit" android:title="@string/m_action_salir"></item>
+</menu>

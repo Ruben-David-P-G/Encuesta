@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroducionActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="@dimen/onespace"
+        android:padding="@dimen/onespace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textColor="@color/colorBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_titulo_introducion"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/threspace"
+
+            />
+
+        <TextView
+            android:textColor="@color/colorBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_subtitulo_introducion"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textSize="@dimen/h3"
+            android:layout_marginBottom="@dimen/threspace"
+            />
+
+        <Button
+            android:id="@+id/btn_iniciar_encuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorNegro"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="Iniciar"
+            android:text="@string/btn_introducion"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/h3"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

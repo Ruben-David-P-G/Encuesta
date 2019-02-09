@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="@dimen/onespace"
+        android:padding="@dimen/threspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t_action_titulo_login"
+            android:textSize="@dimen/h1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginBottom="@dimen/twospace"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_use"
+            android:text=""
+            android:inputType="textPersonName"
+            android:background="@color/colorBlanco"
+            android:layout_marginBottom="@dimen/onespace"
+            android:textStyle="bold"
+            android:textSize="@dimen/h3"
+            android:textColor="@color/colorNegro"
+            />
+
+        <EditText
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_password"
+            android:inputType="textPassword"
+            android:text=""
+            android:background="@color/colorBlanco"
+            android:layout_marginBottom="@dimen/twospace"
+            android:textStyle="bold"
+            android:textSize="@dimen/h3"
+            android:textColor="@color/colorNegro"
+            />
+
+        <Button
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_login"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorBlanco"
+            android:id="@+id/btn_login"
+            android:textSize="@dimen/h3"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

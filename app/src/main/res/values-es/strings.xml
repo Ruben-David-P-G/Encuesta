@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Encuesta Honda</string>
+    <string name="m_action_acerca">Acerca de</string>
+    <string name="m_action_confi">Configuraciones</string>
+    <string name="m_action_salir">Salir</string>
+    <string name="t_action_titulo_login">Usuario</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="input_use">User</string>
+    <string name="input_password">Password</string>
+    <string name="text_titulo_introducion">Tu opinión nos importa</string>
+    <string name="text_subtitulo_introducion">Contesta las siguientes preguntas sobre el servicio recibido.</string>
+    <string name="btn_introducion">Iniciar Encuesta</string>
+    <string name="encuesta_pregunta1">¿Cómo considera que fue el trato recibido?</string>
+    <string name="encuesta_pregunta2">¿Nos recomendaría con un conocido?</string>
+    <string name="encuesta_pregunta3">¿Deseas agregar comentarios adicionales?</string>
+    <string name="encuesta_btn_enviar">Enviar</string>
+    <string name="thanq1">¡Gracias!</string>
+    <string name="thanq2">Tomaremos en cuenta tu opinión.</string>
+    <string name="btn_cerrar">Cerrar</string>
+    <string name="about_titulo">Acerca de</string>
+    <string name="about_info1">Empresa: Honda Avante.</string>
+    <string name="about_info2">Desarrollador: Ruben David Parga Garcia.</string>
+    <string name="about_info3">Verción: 1.</string>
+    <string name="about_info4">Email: deyvis661@gmail.com.</string>
+    <string name="about_info5">Telefono: 3111213720.</string>
+</resources>

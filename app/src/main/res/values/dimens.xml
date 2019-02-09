@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1">50dp</dimen>
+    <dimen name="h2">40dp</dimen>
+    <dimen name="h2_5">35dp</dimen>
+    <dimen name="h3">30dp</dimen>
+    <dimen name="h4">20dp</dimen>
+    <dimen name="h5">10dp</dimen>
+
+    <dimen name="onespace">10dp</dimen>
+    <dimen name="twospace">20dp</dimen>
+    <dimen name="threspace">30dp</dimen>
+</resources>

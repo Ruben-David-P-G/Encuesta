@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurveyActivity"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="@dimen/onespace"
+        android:padding="@dimen/onespace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fontFamily="sans-serif-smallcaps">
+
+        <TextView
+            android:textColor="@color/colorBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encuesta_pregunta1"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/threspace"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@color/colorBlanco"
+            android:layout_marginBottom="@dimen/twospace"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:textColor="@color/colorNegro"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <TextView
+            android:textColor="@color/colorBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encuesta_pregunta2"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/threspace"
+
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGrupo"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Si"
+                android:id="@+id/radiobutton1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiobutton2"
+                android:text="No"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:textColor="@color/colorBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encuesta_pregunta3"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/threspace"
+            />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:background="@color/colorBlanco"
+            android:layout_marginBottom="@dimen/twospace"
+            android:textStyle="bold"
+            android:textSize="@dimen/h4"
+            android:textColor="@color/colorNegro"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorNegro"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="enviar"
+            android:text="@string/btn_introducion"
+            android:textColor="@color/colorBlanco"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
